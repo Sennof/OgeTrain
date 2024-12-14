@@ -9,3 +9,10 @@ ADDED FEATURES:
 	-sound state machine
 	-info panel
 	-page setter
+
+
+
+14.12.2024
+ADDED FEATURES:
+	-game's type choice menu
+	-types' cards switch animations
