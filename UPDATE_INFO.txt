@@ -3,3 +3,9 @@ Initial commit
 
 
 
+14.12.2024
+ADDED FEATURES:
+	-main menu
+	-sound state machine
+	-info panel
+	-page setter
