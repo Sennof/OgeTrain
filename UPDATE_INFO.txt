@@ -24,3 +24,5 @@ ADDED FEATURES:
 	-game1 (2nd rse type) --started
 	-answer checker
 	-adaptive layout
+	-game1 full logic
+	- 1/2 db questions

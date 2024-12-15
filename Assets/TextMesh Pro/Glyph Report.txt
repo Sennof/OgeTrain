@@ -1,0 +1,54 @@
+Font: Liberation Sans  Style: Regular
+Point Size: 1   SP/PD Ratio: 900,0%
+
+Characters included: 1/43
+Missing characters: 0
+Excluded characters: 42
+
+Characters missing from font file:
+----------------------------------------
+
+Characters excluded from packing:
+----------------------------------------
+ID: 1040	Hex: 410	Char [А]
+ID: 1042	Hex: 412	Char [В]
+ID: 1043	Hex: 413	Char [Г]
+ID: 1048	Hex: 418	Char [И]
+ID: 1052	Hex: 41C	Char [М]
+ID: 1053	Hex: 41D	Char [Н]
+ID: 1054	Hex: 41E	Char [О]
+ID: 1055	Hex: 41F	Char [П]
+ID: 1057	Hex: 421	Char [С]
+ID: 1064	Hex: 428	Char [Ш]
+ID: 1069	Hex: 42D	Char [Э]
+ID: 1071	Hex: 42F	Char [Я]
+ID: 1072	Hex: 430	Char [а]
+ID: 1073	Hex: 431	Char [б]
+ID: 1074	Hex: 432	Char [в]
+ID: 1075	Hex: 433	Char [г]
+ID: 1076	Hex: 434	Char [д]
+ID: 1077	Hex: 435	Char [е]
+ID: 1078	Hex: 436	Char [ж]
+ID: 1079	Hex: 437	Char [з]
+ID: 1080	Hex: 438	Char [и]
+ID: 1082	Hex: 43A	Char [к]
+ID: 1083	Hex: 43B	Char [л]
+ID: 1084	Hex: 43C	Char [м]
+ID: 1085	Hex: 43D	Char [н]
+ID: 1086	Hex: 43E	Char [о]
+ID: 1087	Hex: 43F	Char [п]
+ID: 1088	Hex: 440	Char [р]
+ID: 1089	Hex: 441	Char [с]
+ID: 1090	Hex: 442	Char [т]
+ID: 1091	Hex: 443	Char [у]
+ID: 1092	Hex: 444	Char [ф]
+ID: 1093	Hex: 445	Char [х]
+ID: 1094	Hex: 446	Char [ц]
+ID: 1095	Hex: 447	Char [ч]
+ID: 1096	Hex: 448	Char [ш]
+ID: 1097	Hex: 449	Char [щ]
+ID: 1099	Hex: 44B	Char [ы]
+ID: 1100	Hex: 44C	Char [ь]
+ID: 1101	Hex: 44D	Char [э]
+ID: 1102	Hex: 44E	Char [ю]
+ID: 1103	Hex: 44F	Char [я]

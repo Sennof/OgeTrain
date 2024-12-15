@@ -11,6 +11,5 @@ public class Question : ScriptableObject
     public List<string> Answers = new(new string[4]);
     public int CorrectAnswer;
 
-    public string Subject;
-    public string Predicate;
+    public string InfoText;
 }

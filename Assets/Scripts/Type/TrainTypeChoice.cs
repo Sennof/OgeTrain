@@ -7,13 +7,14 @@ public class TrainTypeChoice : MonoBehaviour
     [SerializeField] private PageSetter PageSetter;
 
     [SerializeField] private Animator _typeCardsAnim;
+    [SerializeField] private Animator _hintAnim;
 
     [SerializeField] private List<GameObject> _cards = new();
 
     private int _curCardIndex = 0;
 
     public void NextCard()
-    {
+        {
         if(_curCardIndex < _cards.Count)
         {
             _curCardIndex++;
@@ -32,6 +33,9 @@ public class TrainTypeChoice : MonoBehaviour
 
     public void Play()
     {
-        PageSetter.ToPage(_curCardIndex+2);
+        if (_curCardIndex == 0)
+            PageSetter.ToPage(_curCardIndex + 2);
+        else
+            _hintAnim.Play("undone");       
     }
 }
