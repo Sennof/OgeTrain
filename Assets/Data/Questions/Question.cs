@@ -9,4 +9,8 @@ public class Question : ScriptableObject
     public string Proposal;
 
     public List<string> Answers = new(new string[4]);
+    public int CorrectAnswer;
+
+    public string Subject;
+    public string Predicate;
 }

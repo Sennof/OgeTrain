@@ -16,3 +16,11 @@ ADDED FEATURES:
 ADDED FEATURES:
 	-game's type choice menu
 	-types' cards switch animations
+
+
+
+15.12.2024
+ADDED FEATURES:
+	-game1 (2nd rse type) --started
+	-answer checker
+	-adaptive layout
