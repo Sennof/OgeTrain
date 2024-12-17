@@ -15,7 +15,7 @@ public class TrainTypeChoice : MonoBehaviour
 
     public void NextCard()
         {
-        if(_curCardIndex < _cards.Count)
+        if(_curCardIndex < _cards.Count - 1)
         {
             _curCardIndex++;
             _typeCardsAnim.Play($"from{_curCardIndex-1}next");

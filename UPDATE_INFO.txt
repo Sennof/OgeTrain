@@ -26,3 +26,10 @@ ADDED FEATURES:
 	-adaptive layout
 	-game1 full logic
 	- 1/2 db questions
+
+
+
+16.12.2024
+ADDED FEATURES:
+	-full game1 questions db
+	-answer buttons shuffle

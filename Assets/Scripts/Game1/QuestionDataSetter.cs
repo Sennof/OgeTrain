@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using sennof;
 
 public class QuestionDataSetter : MonoBehaviour
 {
@@ -29,7 +30,7 @@ public class QuestionDataSetter : MonoBehaviour
 
     private void SetQuestionData()
     {
-        int randomQuestionIndex = Random.Range(0, _questions.Count);
+        int randomQuestionIndex = UnityEngine.Random.Range(0, _questions.Count);
 
         if (_lastQueIndex != randomQuestionIndex)
         {
@@ -37,6 +38,11 @@ public class QuestionDataSetter : MonoBehaviour
                 _infoButton.SetActive(false);
 
             _correctAnswerIndex = _questions[randomQuestionIndex].CorrectAnswer;
+            string correctAnswer = _questions[randomQuestionIndex].Answers[_correctAnswerIndex];
+
+            _questions[randomQuestionIndex].Answers = Tools.Shuffle(_questions[randomQuestionIndex].Answers);
+            _correctAnswerIndex = _questions[randomQuestionIndex].Answers.IndexOf(correctAnswer);
+            _questions[randomQuestionIndex].CorrectAnswer = _correctAnswerIndex;
 
             _proposal.text = _questions[randomQuestionIndex].Proposal;
             for (int i = 0; i < _questions[randomQuestionIndex].Answers.Count; i++)
