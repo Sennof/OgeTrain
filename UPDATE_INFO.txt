@@ -33,3 +33,10 @@ ADDED FEATURES:
 ADDED FEATURES:
 	-full game1 questions db
 	-answer buttons shuffle
+
+
+
+17.12.2024
+UPDATED FEATURES:
+	-db remake(some changes(as correct gramma))
+	-font fix(chars)
