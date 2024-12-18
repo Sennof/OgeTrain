@@ -40,3 +40,10 @@ ADDED FEATURES:
 UPDATED FEATURES:
 	-db remake(some changes(as correct gramma))
 	-font fix(chars)
+
+
+
+18.12.2024
+UPDATED FEATURES:
+	-no bg(addaptive ui)
+	-type cards' animations
