@@ -44,6 +44,8 @@ UPDATED FEATURES:
 
 
 18.12.2024
+ADDED FEATURES:
+	-sounds
 UPDATED FEATURES:
 	-no bg(addaptive ui)
 	-type cards' animations

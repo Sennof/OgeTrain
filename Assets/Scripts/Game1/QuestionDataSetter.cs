@@ -79,10 +79,12 @@ public class QuestionDataSetter : MonoBehaviour
     {
         if (index == _correctAnswerIndex)
         {
+            AudioManager.Instance.PlayYes();
             StartCoroutine(correctAnswering());
         }
         else
         {
+            AudioManager.Instance.PlayNo();
             SetButtonsColor(_buttonsColors[2] ,index);
             _infoButton.SetActive(true);
         }
