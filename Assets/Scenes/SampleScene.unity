@@ -2761,6 +2761,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 883312434}
+        m_TargetAssemblyTypeName: GamePushManager, Assembly-CSharp
+        m_MethodName: ShowAdd
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 883312431}
         m_TargetAssemblyTypeName: PageSetter, Assembly-CSharp
         m_MethodName: ToPage
@@ -2885,6 +2897,7 @@ GameObject:
   - component: {fileID: 883312428}
   - component: {fileID: 883312431}
   - component: {fileID: 883312433}
+  - component: {fileID: 883312434}
   m_Layer: 0
   m_Name: SERVICES
   m_TagString: Untagged
@@ -3055,6 +3068,18 @@ MonoBehaviour:
   - {fileID: 8300000, guid: abda26edd09b17e43a1199949578937b, type: 3}
   - {fileID: 8300000, guid: 9d842422c928d3e45baa27e25ed2df07, type: 3}
   _soundButton: {fileID: 1861727389}
+--- !u!114 &883312434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883312427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa439c195a40ac144a2ab52675b1c5d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &883907854
 GameObject:
   m_ObjectHideFlags: 0
@@ -6479,6 +6504,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 883312434}
+        m_TargetAssemblyTypeName: GamePushManager, Assembly-CSharp
+        m_MethodName: ShowAdd
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 373829285}
         m_TargetAssemblyTypeName: TrainTypeChoice, Assembly-CSharp
         m_MethodName: Play

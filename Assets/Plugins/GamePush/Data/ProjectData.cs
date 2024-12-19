@@ -1,0 +1,12 @@
+namespace GamePush.Data
+{
+    public static class ProjectData
+    {
+        public static string SDK_VERSION = "1.7.0";
+        public static string ID = "19191";
+        public static string TOKEN = "aolKVoGrbsotfVCRv2meDj7WgVNDjbif";
+        public static bool GAMEREADY_AUTOCALL = false;
+        public static bool SHOW_STICKY_ON_START = false;
+        public static bool WAIT_PLAGIN_READY = true;
+    }
+}
