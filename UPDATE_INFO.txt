@@ -49,3 +49,10 @@ ADDED FEATURES:
 UPDATED FEATURES:
 	-no bg(addaptive ui)
 	-type cards' animations
+
+
+
+
+19.12.2024
+ADDED FEATURES:
+	-gamepush
