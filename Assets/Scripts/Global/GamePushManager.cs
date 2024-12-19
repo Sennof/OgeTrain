@@ -5,7 +5,7 @@ using GamePush;
 
 public class GamePushManager : MonoBehaviour
 {
-    public static GamePushManager Instancel { get; private set; }
+    public static GamePushManager Instance { get; private set; }
 
     private async void Awake()
     {

@@ -33,9 +33,7 @@ public class TrainTypeChoice : MonoBehaviour
 
     public void Play()
     {
-        if (_curCardIndex == 0)
-            PageSetter.ToPage(_curCardIndex + 2);
-        else
-            _hintAnim.Play("undone");       
+        GamePushManager.Instance.ShowAdd();
+        PageSetter.ToPage(_curCardIndex + 2);     
     }
 }
