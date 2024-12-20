@@ -9,6 +9,11 @@ public class GamePushManager : MonoBehaviour
 
     private async void Awake()
     {
+        if (Instance != null && Instance != this)
+            Destroy(this);
+        else
+            Instance = this;
+
         await GP_Init.Ready;
     }
 

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Sennof\\Documents\\UniDev\\OgeTraining\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A045B0D-2EB0-0399-05E9-365182A9D445}|Assembly-CSharp.csproj|C:\\Users\\Sennof\\Documents\\UniDev\\OgeTraining\\assets\\scripts\\type\\traintypechoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A045B0D-2EB0-0399-05E9-365182A9D445}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\type\\traintypechoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A045B0D-2EB0-0399-05E9-365182A9D445}|Assembly-CSharp.csproj|C:\\Users\\Sennof\\Documents\\UniDev\\OgeTraining\\assets\\scripts\\game2\\game2manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A045B0D-2EB0-0399-05E9-365182A9D445}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game2\\game2manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A045B0D-2EB0-0399-05E9-365182A9D445}|Assembly-CSharp.csproj|c:\\users\\sennof\\documents\\unidev\\ogetraining\\assets\\scripts\\game2\\game2manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A045B0D-2EB0-0399-05E9-365182A9D445}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game2\\game2manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A045B0D-2EB0-0399-05E9-365182A9D445}|Assembly-CSharp.csproj|c:\\users\\sennof\\documents\\unidev\\ogetraining\\assets\\scripts\\type\\traintypechoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A045B0D-2EB0-0399-05E9-365182A9D445}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\type\\traintypechoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A045B0D-2EB0-0399-05E9-365182A9D445}|Assembly-CSharp.csproj|C:\\Users\\Sennof\\Documents\\UniDev\\OgeTraining\\assets\\scripts\\global\\pagesetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 235,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -78,7 +78,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TrainTypeChoice.cs",
               "DocumentMoniker": "C:\\Users\\Sennof\\Documents\\UniDev\\OgeTraining\\Assets\\Scripts\\Type\\TrainTypeChoice.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Type\\TrainTypeChoice.cs",
@@ -91,13 +91,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Game2Manager.cs",
               "DocumentMoniker": "C:\\Users\\Sennof\\Documents\\UniDev\\OgeTraining\\Assets\\Scripts\\Game2\\Game2Manager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Game2\\Game2Manager.cs",
               "ToolTip": "C:\\Users\\Sennof\\Documents\\UniDev\\OgeTraining\\Assets\\Scripts\\Game2\\Game2Manager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Game2\\Game2Manager.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAQwFQAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAgwEsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-19T16:27:28.135Z",
               "EditorCaption": ""
@@ -148,8 +148,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Global\\PageSetter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T15:42:41.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T15:42:41.37Z"
             },
             {
               "$type": "Document",

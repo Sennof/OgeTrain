@@ -25,6 +25,8 @@ public class Game2Manager : MonoBehaviour
     private int? _lastQIndex = null;
     private string _correctAnswer;
 
+    private bool isAnswered = false;
+
     private void Awake()
     {
         _inputFieldBg = _inputField.GetComponentInParent<Image>();
@@ -44,6 +46,7 @@ public class Game2Manager : MonoBehaviour
         }
         else
         {
+            isAnswered = true;
             ChangeButtons();
             _infoButton.SetActive(true);
             StartCoroutine(IncorrectAnswering());
@@ -53,7 +56,8 @@ public class Game2Manager : MonoBehaviour
 
     public void AddToAnswer(string value)
     {
-        _inputField.text = $"{_inputField.text}{value}";
+        if(!isAnswered)
+            _inputField.text = $"{_inputField.text}{value}";
     }
 
     public void DelFromAnswer()
@@ -72,8 +76,10 @@ public class Game2Manager : MonoBehaviour
     public void NextQ()
     {
         ChangeButtons();
+        _infoButton.SetActive(false);
         SetQuestionData();
         _inputField.text = "";
+        isAnswered = false;
     }
     private void SetQuestionData()
     {
@@ -100,12 +106,14 @@ public class Game2Manager : MonoBehaviour
         if (_buttons[0].activeInHierarchy)
         {
             _buttons[0].SetActive(false);
-            _buttons[1].SetActive(true);
+            _buttons[1].SetActive(false);
+            _buttons[2].SetActive(true);
         }
         else
         {
             _buttons[0].SetActive(true);
-            _buttons[1].SetActive(false);
+            _buttons[1].SetActive(true);
+            _buttons[2].SetActive(false);
         }
     }
 
@@ -123,7 +131,8 @@ public class Game2Manager : MonoBehaviour
     {
         _inputFieldBg.color = _wrongColor;
         ChangeInfoScrState();
-        yield return new WaitForSeconds(1.2f);
+        yield return new WaitForSeconds(1.6f);
+        _inputField.text = $"Твой ответ: {_inputField.text}";
         ChangeInfoScrState();
         _infoScreen.SetActive(false);
     }
