@@ -44,15 +44,6 @@ UPDATED FEATURES:
 
 
 18.12.2024
-ADDED FEATURES:
-	-sounds
 UPDATED FEATURES:
-	-no bg(addaptive ui)
-	-type cards' animations
-
-
-
-
-19.12.2024
-ADDED FEATURES:
-	-gamepush
+	-new game2 ui
+P.S. still without db

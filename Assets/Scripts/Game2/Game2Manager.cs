@@ -9,13 +9,16 @@ public class Game2Manager : MonoBehaviour
     [SerializeField] private List<Type5Q> _questions = new();
     [SerializeField] private TMP_Text _proposal;
 
+    [SerializeField] private GameObject _infoButton;
     [SerializeField] private GameObject _infoScreen;
     [SerializeField] private TMP_Text _infoText;
 
-    [SerializeField] TMP_InputField _inputField;
-    [SerializeField] Color _defaultColor;
-    [SerializeField] Color _correctColor;
-    [SerializeField] Color _wrongColor;
+    [SerializeField] private TMP_InputField _inputField;
+    [SerializeField] private Color _correctColor;
+    [SerializeField] private Color _wrongColor;
+    [SerializeField] private Color _defaultColor;
+
+    [SerializeField] private List<GameObject> _buttons;
 
     private Image _inputFieldBg;
 
@@ -25,7 +28,6 @@ public class Game2Manager : MonoBehaviour
     private void Awake()
     {
         _inputFieldBg = _inputField.GetComponentInParent<Image>();
-        SetQuestionData();
     }
 
     private void OnEnable()
@@ -42,7 +44,10 @@ public class Game2Manager : MonoBehaviour
         }
         else
         {
+            ChangeButtons();
+            _infoButton.SetActive(true);
             StartCoroutine(IncorrectAnswering());
+            BackIFBgDefault();
         }
     }
 
@@ -56,6 +61,20 @@ public class Game2Manager : MonoBehaviour
         _inputField.text = _inputField.text.Remove(_inputField.text.Length - 1);
     }
 
+    public void ChangeInfoScrState()
+    {
+        if (_infoScreen.activeInHierarchy)
+            _infoScreen.SetActive(false);
+        else
+            _infoScreen.SetActive(true);
+    }
+
+    public void NextQ()
+    {
+        ChangeButtons();
+        SetQuestionData();
+        _inputField.text = "";
+    }
     private void SetQuestionData()
     {
         int randomQuestionIndex = UnityEngine.Random.Range(0, _questions.Count);
@@ -76,6 +95,21 @@ public class Game2Manager : MonoBehaviour
         _inputFieldBg.color = _defaultColor;
     }
 
+    private void ChangeButtons()
+    {
+        if (_buttons[0].activeInHierarchy)
+        {
+            _buttons[0].SetActive(false);
+            _buttons[1].SetActive(true);
+        }
+        else
+        {
+            _buttons[0].SetActive(true);
+            _buttons[1].SetActive(false);
+        }
+    }
+
+
     private IEnumerator CorrectAnswering()
     {
         _inputFieldBg.color = _correctColor;
@@ -88,11 +122,9 @@ public class Game2Manager : MonoBehaviour
     private IEnumerator IncorrectAnswering()
     {
         _inputFieldBg.color = _wrongColor;
-        _infoScreen.SetActive(true);
+        ChangeInfoScrState();
         yield return new WaitForSeconds(1.2f);
+        ChangeInfoScrState();
         _infoScreen.SetActive(false);
-        BackIFBgDefault();
-        _inputField.text = "";
-        SetQuestionData();
     }
 }
