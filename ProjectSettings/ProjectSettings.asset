@@ -16,7 +16,7 @@ PlayerSettings:
   productName: OgeTraining
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
-  m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
+  m_SplashScreenBackgroundColor: {r: 0.09433961, g: 0.08632964, b: 0.08833214, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 1
@@ -39,13 +39,15 @@ PlayerSettings:
     y: 0
     width: 1
     height: 1
-  m_SplashScreenLogos: []
+  m_SplashScreenLogos:
+  - logo: {fileID: 21300000, guid: 2acc045c2e29b6c42a93184c34228283, type: 3}
+    duration: 3
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1920
   defaultScreenHeight: 1080
-  defaultScreenWidthWeb: 960
-  defaultScreenHeightWeb: 600
+  defaultScreenWidthWeb: 1080
+  defaultScreenHeightWeb: 1920
   m_StereoRenderingPath: 0
   m_ActiveColorSpace: 0
   unsupportedMSAAFallback: 0
@@ -331,7 +333,29 @@ PlayerSettings:
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   openGLRequireES32: 0
-  m_TemplateCustomTags: {}
+  m_TemplateCustomTags:
+    CHANGE_BAR_COLOR: false
+    CHANGE_LOADING_SCREEN_BACKGROUND: true
+    CHANGE_LOGO_IMAGE: true
+    CONFIGURE_SHADOWS: false
+    CONNECT_WEB_AUDIO_PLUGIN_FILES: false
+    CONNECT_YANDEX_SDK: true
+    DEVICE_PIXEL_RATIO: 9/16
+    ENABLE_CONSOLE: false
+    OVERLAY_BACKGROUND_COLOR: blue
+    PROGRESS_BAR_BACKGROUND_COLOR: gray
+    PROGRESS_BAR_BORDER_COLOR: black
+    PROGRESS_BAR_FILL_COLOR: green
+    PROJECT_ID: 19191
+    SET_ASPECT_RATIO_ON_DESKTOP: 9/16
+    SET_ASPECT_RATIO_ON_MOBILE: 9/16
+    SET_WINDOW_HEIGHT_ON_DESKTOP: 1920
+    SET_WINDOW_HEIGHT_ON_MOBILE: 1920
+    SET_WINDOW_WIDTH_ON_DESKTOP: 1080
+    SET_WINDOW_WIDTH_ON_MOBILE: 1080
+    SHOW_PRELOADER_AD: true
+    TOKEN: aolKVoGrbsotfVCRv2meDj7WgVNDjbif
+    YASDK_SHOW_PRELOADER_AD: true
   mobileMTRendering:
     Android: 1
     iPhone: 1
@@ -588,7 +612,7 @@ PlayerSettings:
   webGLDebugSymbols: 0
   webGLEmscriptenArgs: 
   webGLModulesDirectory: 
-  webGLTemplate: APPLICATION:Default
+  webGLTemplate: PROJECT:ATP_Standart
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
   webGLCompressionFormat: 0

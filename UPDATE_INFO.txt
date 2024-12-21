@@ -51,5 +51,8 @@ P.S. still without db
 
 
 21.12.2024
+ADDED FEATURES:
+	-webgl resolution template
+	-start logo
 UPDATED FEATURES:
 	-game2's sounds
