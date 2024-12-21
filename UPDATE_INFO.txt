@@ -56,3 +56,9 @@ ADDED FEATURES:
 	-start logo
 UPDATED FEATURES:
 	-game2's sounds
+
+
+
+21.12.2024
+UPDATED FEATURES
+	-device pixel ratio
