@@ -47,3 +47,9 @@ UPDATED FEATURES:
 UPDATED FEATURES:
 	-new game2 ui
 P.S. still without db
+
+
+
+21.12.2024
+UPDATED FEATURES:
+	-game2's sounds

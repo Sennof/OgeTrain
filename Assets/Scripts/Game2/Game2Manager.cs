@@ -42,11 +42,13 @@ public class Game2Manager : MonoBehaviour
     {
         if (_inputField.text == _correctAnswer)
         {
+            AudioManager.Instance.PlayYes();
             StartCoroutine(CorrectAnswering());
         }
         else
         {
             isAnswered = true;
+            AudioManager.Instance.PlayNo();
             ChangeButtons();
             _infoButton.SetActive(true);
             StartCoroutine(IncorrectAnswering());
