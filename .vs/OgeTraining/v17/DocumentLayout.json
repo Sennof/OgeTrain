@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Sennof\\Documents\\UniDev\\OgeTraining\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A045B0D-2EB0-0399-05E9-365182A9D445}|Assembly-CSharp.csproj|c:\\users\\sennof\\documents\\unidev\\ogetraining\\assets\\scripts\\global\\yandextool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A045B0D-2EB0-0399-05E9-365182A9D445}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\global\\yandextool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A045B0D-2EB0-0399-05E9-365182A9D445}|Assembly-CSharp.csproj|C:\\Users\\Sennof\\Documents\\UniDev\\OgeTraining\\assets\\data\\type5\\type5q.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A045B0D-2EB0-0399-05E9-365182A9D445}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\type5\\type5q.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A045B0D-2EB0-0399-05E9-365182A9D445}|Assembly-CSharp.csproj|C:\\Users\\Sennof\\Documents\\UniDev\\OgeTraining\\assets\\scripts\\type\\traintypechoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0A045B0D-2EB0-0399-05E9-365182A9D445}|Assembly-CSharp.csproj|C:\\Users\\Sennof\\Documents\\UniDev\\OgeTraining\\assets\\scripts\\global\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A045B0D-2EB0-0399-05E9-365182A9D445}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\global\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A045B0D-2EB0-0399-05E9-365182A9D445}|Assembly-CSharp.csproj|C:\\Users\\Sennof\\Documents\\UniDev\\OgeTraining\\assets\\data\\type5\\type5q.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A045B0D-2EB0-0399-05E9-365182A9D445}|Assembly-CSharp.csproj|solutionrelative:assets\\data\\type5\\type5q.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A045B0D-2EB0-0399-05E9-365182A9D445}|Assembly-CSharp.csproj|C:\\Users\\Sennof\\Documents\\UniDev\\OgeTraining\\assets\\scripts\\menu\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,19 +55,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "YandexTool.cs",
-              "DocumentMoniker": "C:\\Users\\Sennof\\Documents\\UniDev\\OgeTraining\\Assets\\Scripts\\Global\\YandexTool.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Global\\YandexTool.cs",
-              "ToolTip": "C:\\Users\\Sennof\\Documents\\UniDev\\OgeTraining\\Assets\\Scripts\\Global\\YandexTool.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Global\\YandexTool.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T08:04:27.882Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Type5Q.cs",
               "DocumentMoniker": "C:\\Users\\Sennof\\Documents\\UniDev\\OgeTraining\\Assets\\Data\\type5\\Type5Q.cs",
               "RelativeDocumentMoniker": "Assets\\Data\\type5\\Type5Q.cs",
@@ -79,11 +62,12 @@
               "RelativeToolTip": "Assets\\Data\\type5\\Type5Q.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T16:28:16.123Z"
+              "WhenOpened": "2024-12-19T16:28:16.123Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Tools.cs",
               "DocumentMoniker": "C:\\Users\\Sennof\\Documents\\UniDev\\OgeTraining\\Assets\\Scripts\\Global\\Tools.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Global\\Tools.cs",
@@ -131,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Question.cs",
               "DocumentMoniker": "C:\\Users\\Sennof\\Documents\\UniDev\\OgeTraining\\Assets\\Data\\Questions\\Question.cs",
               "RelativeDocumentMoniker": "Assets\\Data\\Questions\\Question.cs",
@@ -143,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "GamePushManager.cs",
               "DocumentMoniker": "C:\\Users\\Sennof\\Documents\\UniDev\\OgeTraining\\Assets\\Scripts\\Global\\GamePushManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Global\\GamePushManager.cs",
@@ -167,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "MenuManager.cs",
               "DocumentMoniker": "C:\\Users\\Sennof\\Documents\\UniDev\\OgeTraining\\Assets\\Scripts\\Menu\\MenuManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Menu\\MenuManager.cs",
@@ -179,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "MenuManager.cs",
               "DocumentMoniker": "C:\\Users\\Sennof\\Documents\\UniDev\\OgeTraining\\Assets\\Scripts\\MenuManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MenuManager.cs",
