@@ -62,3 +62,12 @@ UPDATED FEATURES:
 21.12.2024
 UPDATED FEATURES
 	-device pixel ratio
+
+
+
+26.12.2024
+ADDED FEATURES:
+	-game ready api
+	-yandex api
+UPDATED FEATURES:
+	-template (gamepush -> yandex)

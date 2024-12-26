@@ -33,7 +33,6 @@ public class TrainTypeChoice : MonoBehaviour
 
     public void Play()
     {
-        GamePushManager.Instance.ShowAdd();
         PageSetter.ToPage(_curCardIndex + 2);     
     }
 }
