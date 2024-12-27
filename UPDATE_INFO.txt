@@ -71,3 +71,9 @@ ADDED FEATURES:
 	-yandex api
 UPDATED FEATURES:
 	-template (gamepush -> yandex)
+
+
+
+27.12.2024
+FIXES:
+	-some release fixes
